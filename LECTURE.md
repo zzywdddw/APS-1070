@@ -160,10 +160,43 @@ Axions of probability:
 2. The sum of the probabilities of all events equals to 1
 3. If two events are disjoint (mutually exclusive, which means cannot happen at the same time), the probability that either of the events happens is the sum of the probabilities that each happens. (If AB = {}, P(A ∪ B) = P(A) + P(B).)
 <br>
+
+### Discrete Probabilities
 Probability mass function(PMF): PMF maps each value in the variable's sample sapce to a probability
-A common discrete distribution is the Beronulli - —A Bernoulli distribution specifies the probability for a random variable which can take on one of two values. (tail or head)
+
+A common discrete distribution is the Beronulli - A Bernoulli distribution specifies the probability for a random variable which can take on one of two values. (tail or head)
   - e.g., for a fair coin we have p = 0.5,
   - e.g., given the probability of rain is p = 0.2, we can infer the probability of no rain is 0.8.
+
+![image](https://github.com/user-attachments/assets/652be369-af9d-4bee-8050-a34dd72c1aec)  
+![image](https://github.com/user-attachments/assets/7e830ffe-30b8-40fb-a7e4-eb92e40c98d6)
+Two variables x and y are independent if:  
+    P(x,y) = P(x) * P(y)  
+Two variables x and y are conditionally independent if:  
+    P(x,y | z) = P(x|z) * P(y|z)  
+
+### Continuous Probabilities  
+Continuous random variables are described by probability density functions (PDF) which can be a bit more difficult to understand  
+  - PDFs map an infinite sample space to relative likelihood values
+Gaussian Distribution:
+![image](https://github.com/user-attachments/assets/6f8a6943-1cd2-4871-8285-c81a5a79824a)
+![image](https://github.com/user-attachments/assets/116b87db-3692-4254-83b6-a1ff08840ae8)
+![image](https://github.com/user-attachments/assets/4db63e5e-625a-4dec-b5c1-5ed97c86278f)
+![image](https://github.com/user-attachments/assets/4dbc3bcf-146e-490d-8a1c-6a61bcabc300)
+![image](https://github.com/user-attachments/assets/168bf307-bed1-4424-863b-5dfff2d38dba)
+In general, variance is a measure of how much a random variable varies from its mean.
+![image](https://github.com/user-attachments/assets/06ba4dc5-dd0a-4cf0-8a9a-61fb1c706f84)
+![image](https://github.com/user-attachments/assets/2e70e4c1-21b6-4126-b6fe-262d9295d9fb)  
+![image](https://github.com/user-attachments/assets/8673279d-c5b4-452a-8393-596bded81fa4)
+What is the precision (emails flagged as spam)
+
+What is the recall (actual spam correctly classified)
+
+
+
+
+
+
 
 
 
