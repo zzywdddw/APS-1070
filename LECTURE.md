@@ -57,7 +57,7 @@ Resolution2: double hashing, Use a second hash ∆(k) = t to move from h(k) to t
 
 Imagine there is n balls are thrown into m boxes, if n is much smaller than m, collisions will be few and most slots will be empty. If n is much larger than m, collisions will be many and no slots will be empty.  
 Load factor:  Lambda = n/m  
-Note that when the load factor is very small λ → 0, collisions are unlikely (for example Q(m,0) = 1 and Q(m,1) = 1).  
+Note that when the load factor is very small λ → 0, collisions are unlikely (for example Q(m,0) = 1 and Q(m,1) = 1).    
 At the other extreme case of λ > 1, collisions are absolutely certain (i.e. Q(m, n) = 0)  
 ![image](https://github.com/user-attachments/assets/6affab86-2539-48aa-8432-55623c94f1c1)  
 
