@@ -137,6 +137,36 @@ The dataset is divided into K equally sized folds. The model is trained on K-1 f
 <br>Example:    
 If you have a dataset of 100 samples and use 5-fold cross-validation (K = 5), the data is split into 5 subsets. The model is trained on 4 of the subsets (80% of the data) and tested on the remaining 1 (20%). This process is repeated 5 times, and the final result is the average of the 5 test performances.
 
+<br>
+<br>
+<br>  
+
+## Week4 - Probability Theory, Gaussian Distribution, Performance Metrics  
+![image](https://github.com/user-attachments/assets/f613f0dd-b173-4682-a50c-aecfec2b0ac8)  
+<br>  
+Imagine that a coin we believe to be fiar is flipped three times and results in three heads.  
+- Frequentist calculation: estimations come from experiments and experiments only. e.g, if we want to estimate how likely a six-sided die is to roll a 4, we should roll the die many times and observe how frequently 4 appears.  
+- Bayesian: our prior knowledge that the coin is fair allows us to maintain some degree of belief that a tails is still possible  
+<br>  
+Sample space Ω is the set of all possible outcomes of an experiment.
+
+Observation ω ∊ Ω are points in the space also called sample outcomes, realizations, or elements.  
+Events E ⊂ Ω are subsets of the sample space.  
+
+<br>
+
+Axions of probability:  
+1. Probablity of any event must be between 0 and 1
+2. The sum of the probabilities of all events equals to 1
+3. If two events are disjoint (mutually exclusive, which means cannot happen at the same time), the probability that either of the events happens is the sum of the probabilities that each happens. (If AB = {}, P(A ∪ B) = P(A) + P(B).)
+<br>
+Probability mass function(PMF): PMF maps each value in the variable's sample sapce to a probability
+A common discrete distribution is the Beronulli - —A Bernoulli distribution specifies the probability for a random variable which can take on one of two values. (tail or head)
+  - e.g., for a fair coin we have p = 0.5,
+  - e.g., given the probability of rain is p = 0.2, we can infer the probability of no rain is 0.8.
+
+
+
 
 
 
