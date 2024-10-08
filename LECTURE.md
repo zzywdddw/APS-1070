@@ -44,6 +44,24 @@ Sorted List
 - Deletion is O(n) because we need to puch other elements left
 ![image](https://github.com/user-attachments/assets/588b7e26-c4b2-4c25-b9c4-e40e2acb61a4)
 
+Can we do better>???  
+Hash function and Tables  
+- Order irrelevant, aim for constant-time(i.e., O(1)) find, insert, and delete
+- A hash table is an array of some fixed size: Maps keys -> indices which contains values
+- Design so that two keys rarely hash to the same index - can lead to collisions
+  
+Collision: when two keys map to the same location in the hash table  
+
+Resolution: Linear probing, if a key K hashes to a value h(k) that is already occupied, moves left one index at a time, wrapping around, until it finds an empty address  
+Resolution2: double hashing, Use a second hash ∆(k) = t to move from h(k) to the left  by a fixed step size t, wrapping around, if necessary, until we find an empty address
+
+Imagine there is n balls are thrown into m boxes, if n is much smaller than m, collisions will be few and most slots will be empty. If n is much larger than m, collisions will be many and no slots will be empty.  
+Load factor:  Lambda = n/m  
+Note that when the load factor is very small λ → 0, collisions are unlikely (for example Q(m,0) = 1 and Q(m,1) = 1).  
+At the other extreme case of λ > 1, collisions are absolutely certain (i.e. Q(m, n) = 0)  
+![image](https://github.com/user-attachments/assets/6affab86-2539-48aa-8432-55623c94f1c1)  
+
+
 
 
 
