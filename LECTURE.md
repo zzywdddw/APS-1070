@@ -1,4 +1,4 @@
-### Week1 - K-nearest neighbours classifier  
+## Week1 - K-nearest neighbours classifier  
 We use Euclidean distance to compute the distance  
 ![image](https://github.com/user-attachments/assets/99d94377-b659-47ee-af55-912ad170e799)  
 <br>
@@ -16,7 +16,7 @@ K can be selected based on the best performance on the validation set.
 <br>
 <br>
 <br>
-### Week2 - Asymptotic Complexity, Analysis of Algorithms, Monte Carlo Simulation  
+## Week2 - Asymptotic Complexity, Analysis of Algorithms, Monte Carlo Simulation  
 Basic operations take constant time:  
 - Arithmetic
 - Assignment
@@ -60,6 +60,85 @@ Load factor:  Lambda = n/m
 Note that when the load factor is very small λ → 0, collisions are unlikely (for example Q(m,0) = 1 and Q(m,1) = 1).    
 At the other extreme case of λ > 1, collisions are absolutely certain (i.e. Q(m, n) = 0)  
 ![image](https://github.com/user-attachments/assets/6affab86-2539-48aa-8432-55623c94f1c1)  
+<br>
+<br>
+<br>
+## Week3 - Decision Trees, Clustering, End-to-end Machine Learning  
+Instance-Based:  
+- system learns the examples by heart, then generalizes to new cases by using a similarity/distance measure to compare them to the learned examples.
+  
+Model-Based:
+- Build a model of these examples and then use that model to make predictions.
+  
+Parametric:
+- Have a fixed number of parameters
+- Estimate of fixed parameters improve with more data
+- Make strong assumption about the data
+
+Nonparametric:  
+- Number of parameters grow with #samples
+- Size depends on #samples
+- Complexity grows with #samples
+
+ Trade-offs between parametric and non-parametric algorithms are in computational cost and accuracy
+<br>
+<br>  
+#### Decision Tree  
+- A rule-based supervised learning algorithm
+- Can be applied to classification (discrete) and regression (continuous) task
+- Highly interpretable
+
+For the classification tree:  
+- discrete output
+- output node typically set to the most common value
+
+For the regression tree:  
+- continuous tree
+- output node value typically set to the mean value in data
+
+Managing overfitting:  
+1. Add parameters to reduce potential for overfitting
+2. Parameters include:
+     - depth of tree
+     - minimum number of samples
+
+<br>
+<br>   
+
+#### Random Forests  
+![image](https://github.com/user-attachments/assets/64b775e5-1cd6-4dee-b97e-2bb6191b1939)  
+
+#### K-Means Clustering  
+Distance-based unsupervised learning algorithm:  
+1. Assign each sample/instance to its closest mean
+2. update the means based on the assignment
+3. repeat until convergence
+![image](https://github.com/user-attachments/assets/72e01f3b-9b4f-48be-bb56-c16d97f458f8)
+![image](https://github.com/user-attachments/assets/2985a050-12f8-4724-a433-351d31786bfe)
+![image](https://github.com/user-attachments/assets/e86b44d4-9c90-4b88-a6cf-cf9beef23b5a)
+![image](https://github.com/user-attachments/assets/c99b5a97-3e28-4ee7-96db-bc50fb671a1c)
+Whenever an assignment is changed, the sum squared distances, J, of data points from their assigned cluster centres is reduced
+Whenever a cluster is moved, J is reduced
+Test for convergence: if the assignments do not change in the assignment step, we have converged (to at least a local minimum)
+<br>
+Option for avoiding local minimum:
+- we could try many random starting points
+- split a big cluster into two
+- merge to nearby clusters
+  
+![image](https://github.com/user-attachments/assets/1252717c-cbb6-42f7-8f7f-1e2aa2d62d9c)  
+![image](https://github.com/user-attachments/assets/f848217b-80f6-4964-b4cd-ad9000e41f55)  
+![image](https://github.com/user-attachments/assets/9ad39677-0807-4d48-bffc-d03f0e248bbf)  
+
+<br>  
+
+K-Fold Cross-Validation:  
+The dataset is divided into K equally sized folds. The model is trained on K-1 folds and tested on the remaining fold. This is repeated K times, with each fold serving as the test set exactly once.  
+<br>Example:    
+If you have a dataset of 100 samples and use 5-fold cross-validation (K = 5), the data is split into 5 subsets. The model is trained on 4 of the subsets (80% of the data) and tested on the remaining 1 (20%). This process is repeated 5 times, and the final result is the average of the 5 test performances.
+
+
+
 
 
 
