@@ -193,6 +193,25 @@ What is the precision (emails flagged as spam)
 What is the recall (actual spam correctly classified)
 
 
+<br>
+<br>
+<br>  
+
+## Week5 - Linear Algebra, Analytical Geometry, Data Augmentation  
+![image](https://github.com/user-attachments/assets/68a9e311-f00b-4eaf-90e7-4074b15a6830)  
+![image](https://github.com/user-attachments/assets/1909bd95-25fc-42f9-88aa-59ff2035ff7a)  
+<br>  
+
+All column vectors are linearly independent iff all columns are pivot columns
+![image](https://github.com/user-attachments/assets/0c1cf681-f1c9-4b94-b03c-64b1db39aa4d)
+
+<br>  
+Orthonormal = orthogonal and unit vectors  
+![image](https://github.com/user-attachments/assets/b03cd600-d584-484b-a61e-1d9375904269)  
+
+![image](https://github.com/user-attachments/assets/3329f15f-3cb1-4898-aec3-7c0eea920be1)  
+
+
 
 
 
