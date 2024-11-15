@@ -236,6 +236,11 @@ Theorems:
 4. The mean of the eigenvalues is the mean of the diagonal entries.  the sum of the eigenvalues is the sum of the diagonal entries
 ![image](https://github.com/user-attachments/assets/a6d76da2-233d-422e-8a7d-47bc0e237cb3)
 ![image](https://github.com/user-attachments/assets/909321cf-8a8a-4b6f-9db4-b09d9555056f)
+<br>
+<br>
+Principle component analysis (PCA) is one example where eigendecomposition is used frequently
+![image](https://github.com/user-attachments/assets/d19bb1ba-0eef-4c55-a0bf-97a652f4912f)
+
 
 
 
