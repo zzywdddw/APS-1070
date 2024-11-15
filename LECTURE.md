@@ -218,6 +218,30 @@ Orthonormal = orthogonal and unit vectors
 
 ## Week7 - Projections, Matrix Decompositions, Principal Component Analysis(PCA)  
 
+Projection onto a plane instead of another vector  
+![image](https://github.com/user-attachments/assets/f977e3f0-ab3b-491f-87f6-e82872c642cd)  
+![image](https://github.com/user-attachments/assets/cb220456-07f0-43ea-8a40-281e64ae4726)  
+
+If the determinant is zero (det(A)=0), the matrix is not invertible  
+If the determinant is non-zero (det(A)=0), the matrix is invertible  
+![image](https://github.com/user-attachments/assets/509886b9-300c-40b2-8fbd-ef85bc2487a9)  
+<br>  
+How to find eigenvalue and eigenvector?  - example 7.1.2
+https://math.libretexts.org/Bookshelves/Linear_Algebra/A_First_Course_in_Linear_Algebra_(Kuttler)/07%3A_Spectral_Theory/7.01%3A_Eigenvalues_and_Eigenvectors_of_a_Matrix  
+<br>  
+Theorems:  
+1. 入i is an eigenvalue if and only if 入i is a root of a characteristic polynomial.
+2. eigenvectors of a square matrix (n x n) with n distinct eigenvalues are linearly independent and form a basis of Rn.
+3. The determinant of a square matrix (n x n) is the product of its eigenvalues
+4. The mean of the eigenvalues is the mean of the diagonal entries.  the sum of the eigenvalues is the sum of the diagonal entries
+![image](https://github.com/user-attachments/assets/a6d76da2-233d-422e-8a7d-47bc0e237cb3)
+![image](https://github.com/user-attachments/assets/909321cf-8a8a-4b6f-9db4-b09d9555056f)
+
+
+
+
+
+
 
 
 
