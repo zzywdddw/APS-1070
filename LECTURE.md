@@ -214,7 +214,11 @@ Orthonormal = orthogonal and unit vectors
 <br>
 <br>
 <br>  
-## Week6 - Reading week
+## Week6 - Midterm
+
+<br>
+<br>
+<br>  
 
 ## Week7 - Projections, Matrix Decompositions, Principal Component Analysis(PCA)  
 
@@ -241,7 +245,38 @@ Theorems:
 Principle component analysis (PCA) is one example where eigendecomposition is used frequently
 
 ![image](https://github.com/user-attachments/assets/d19bb1ba-0eef-4c55-a0bf-97a652f4912f)  
-![image](https://github.com/user-attachments/assets/5f67fbfb-1784-43e6-bceb-b715da9c3f9b)
+![image](https://github.com/user-attachments/assets/5f67fbfb-1784-43e6-bceb-b715da9c3f9b)  
+![image](https://github.com/user-attachments/assets/ea1be582-3980-4bc9-8308-9b55662b01ba)  
+
+
+
+
+<br>
+<br>
+<br>  
+
+## Week8 Reading week  
+
+<br>
+<br>
+<br>  
+
+## Week9 - PCA for clustering images, SVD, Application
+Limaitations of PCA:  
+PCA has its limitations. For example, when you have short (small n) and wide data (large p), PCA may not work well.  
+We can speed up dimensionalitu reduction by exploiting the smaller value of n and p. To achieve this, we first need a way to decompose rectangular matrices...  
+Singular Value Decommposition (SVD) to the rescue!  
+<br>  
+![image](https://github.com/user-attachments/assets/c3d4528b-4bd9-4b6d-ad0a-58c5ef0e5072)  
+![image](https://github.com/user-attachments/assets/d9f0e767-84a9-4e2e-be7e-710c9d922ab8)  
+![image](https://github.com/user-attachments/assets/73d7e84a-b7b5-4b5f-95cf-edacdfedeec9)  
+![image](https://github.com/user-attachments/assets/a45e55ce-e4db-4cf9-9806-7a8a61f67397)  
+![image](https://github.com/user-attachments/assets/90c02037-b073-4a8f-8bed-fd8fdd3bfab4)  
+![image](https://github.com/user-attachments/assets/8c75dbdd-c07d-4941-a261-cb1f6b473cf7)
+
+
+
+
 
 
 
