@@ -239,7 +239,10 @@ Theorems:
 <br>
 <br>
 Principle component analysis (PCA) is one example where eigendecomposition is used frequently
-![image](https://github.com/user-attachments/assets/d19bb1ba-0eef-4c55-a0bf-97a652f4912f)
+
+![image](https://github.com/user-attachments/assets/d19bb1ba-0eef-4c55-a0bf-97a652f4912f)  
+![image](https://github.com/user-attachments/assets/5f67fbfb-1784-43e6-bceb-b715da9c3f9b)
+
 
 
 
