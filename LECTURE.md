@@ -207,10 +207,16 @@ All column vectors are linearly independent iff all columns are pivot columns
 
 <br>  
 Orthonormal = orthogonal and unit vectors  
+
 ![image](https://github.com/user-attachments/assets/b03cd600-d584-484b-a61e-1d9375904269)  
 
 ![image](https://github.com/user-attachments/assets/3329f15f-3cb1-4898-aec3-7c0eea920be1)  
+<br>
+<br>
+<br>  
+## Week6 - Reading week
 
+## Week7 - Projections, Matrix Decompositions, Principal Component Analysis(PCA)  
 
 
 
