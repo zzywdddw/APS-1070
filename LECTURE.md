@@ -283,7 +283,33 @@ Singular Value Decommposition (SVD) to the rescue!
 ![image](https://github.com/user-attachments/assets/b404aa8e-ff22-4198-ac41-4e04dd261cf1)  
 ![image](https://github.com/user-attachments/assets/6bd303d1-a4e5-4c25-850b-fb357b169e34)
 ![image](https://github.com/user-attachments/assets/b0abb742-b239-4f1b-9c9d-be624c06770b)  
-![image](https://github.com/user-attachments/assets/6bfd207f-db57-49b6-80b9-272f005a7b74)
+![image](https://github.com/user-attachments/assets/6bfd207f-db57-49b6-80b9-272f005a7b74)  
+![image](https://github.com/user-attachments/assets/004bd4e1-8902-4a22-990f-3b94e73420da)  
+![image](https://github.com/user-attachments/assets/120a6c02-8d7a-4530-aec6-3435d1ca6a76)
+![image](https://github.com/user-attachments/assets/ef507345-902a-4a6c-8e71-c819438754aa)  
+![image](https://github.com/user-attachments/assets/8c721cfd-e15e-4a32-96f3-1a3721155938)  
+![image](https://github.com/user-attachments/assets/d0755c87-fb81-4818-8f83-861f10986290)  
+![image](https://github.com/user-attachments/assets/15cd362a-7cbc-4294-a443-f28debb34515)  
+![image](https://github.com/user-attachments/assets/956dda9e-2574-49eb-b429-30b5d56c7e04)
+![image](https://github.com/user-attachments/assets/6f2e4722-63e6-46a1-af75-7fbdea6fad8c)  
+![image](https://github.com/user-attachments/assets/dea9ec64-fc6b-4727-b665-22ba16c75547)
+![image](https://github.com/user-attachments/assets/e9e1ddca-b0cd-43d8-93dc-53b4d42fbc2a)  
+![image](https://github.com/user-attachments/assets/5a7f41d5-5830-4a2e-b9cf-0e0492a80edc)  
+Interpretation: SST represents the total variation that could potentially be explained by the model. It serves as a baseline to compare how much of this total variability is accounted for by the model.  
+Interpretation: SSR represents the "leftover" variability that the model fails to capture. A smaller SSR indicates a better-fitting model, as less unexplained variability remains.  
+An R2 value closer to 1 indicates that a large proportion of the variability is explained by the model. For example, If R2 =0.85, it means 85% of the variability in house prices is explained by these factors.
+
+
+<br>
+<br>
+<br>  
+
+## Week11 - Classification, Neural Networks, Regularization
+
+
+
+
+
 
 
 
