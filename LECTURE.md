@@ -295,8 +295,8 @@ Singular Value Decommposition (SVD) to the rescue!
 ![image](https://github.com/user-attachments/assets/dea9ec64-fc6b-4727-b665-22ba16c75547)
 ![image](https://github.com/user-attachments/assets/e9e1ddca-b0cd-43d8-93dc-53b4d42fbc2a)  
 ![image](https://github.com/user-attachments/assets/5a7f41d5-5830-4a2e-b9cf-0e0492a80edc)  
-Interpretation: SST represents the total variation that could potentially be explained by the model. It serves as a baseline to compare how much of this total variability is accounted for by the model.  
-Interpretation: SSR represents the "leftover" variability that the model fails to capture. A smaller SSR indicates a better-fitting model, as less unexplained variability remains.  
+Interpretation: TSS represents the total variation that could potentially be explained by the model. It serves as a baseline to compare how much of this total variability is accounted for by the model.  
+Interpretation: RSS represents the "leftover" variability that the model fails to capture. A smaller SSR indicates a better-fitting model, as less unexplained variability remains.  
 An R2 value closer to 1 indicates that a large proportion of the variability is explained by the model. For example, If R2 =0.85, it means 85% of the variability in house prices is explained by these factors.
 
 
@@ -304,7 +304,29 @@ An R2 value closer to 1 indicates that a large proportion of the variability is 
 <br>
 <br>  
 
-## Week11 - Classification, Neural Networks, Regularization
+## Week11 - Classification, Neural Networks, Regularization  
+![image](https://github.com/user-attachments/assets/56505866-4a55-45d7-bd6e-8346a00bde19)  
+![image](https://github.com/user-attachments/assets/fed5a35a-a6f0-401e-bd04-5ed0f8939e54)  
+![image](https://github.com/user-attachments/assets/01aecd7e-56a2-4ccb-9e1d-843b6c78f606)  
+![image](https://github.com/user-attachments/assets/6d6ec42c-863e-4827-84dc-52d526a3f5ac)  
+![image](https://github.com/user-attachments/assets/26ed6f11-1939-460d-b627-3989043f88a5)  
+![image](https://github.com/user-attachments/assets/c28d622d-e649-4857-87f9-d93579a4a80b)  
+![image](https://github.com/user-attachments/assets/da735273-5932-461f-b451-1939ab44945e)  
+The L1 norm (or sum of absolute values) is regularizer that encourages weights to be exactly zero. When you expect that only a few features are important and want to perform feature selection.  
+The L2 norm encourages smaller values for coefficients but does not force them to zero. Helps reduce the model's complexity without eliminating features. When all features are likely to contribute to the model but you want to reduce their individual importance to prevent overfitting.  
+
+
+![image](https://github.com/user-attachments/assets/14ca401e-45c3-4bf4-bf90-ca01550f81c3)  
+![image](https://github.com/user-attachments/assets/d9c417db-ef92-45ed-b902-75942e05142a)
+
+
+
+
+
+
+
+
+
 
 
 
