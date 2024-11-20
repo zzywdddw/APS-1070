@@ -274,6 +274,19 @@ Singular Value Decommposition (SVD) to the rescue!
 ![image](https://github.com/user-attachments/assets/90c02037-b073-4a8f-8bed-fd8fdd3bfab4)  
 ![image](https://github.com/user-attachments/assets/8c75dbdd-c07d-4941-a261-cb1f6b473cf7)
 
+<br>
+<br>
+<br>  
+
+## Week10 -Empirical Risk Minimization, Maximum Likelihood Estimation, Linear Regression, Polynomial Regression  
+![image](https://github.com/user-attachments/assets/cf05434a-e695-408a-b6fe-943a16c7a5f8)  
+![image](https://github.com/user-attachments/assets/b404aa8e-ff22-4198-ac41-4e04dd261cf1)  
+![image](https://github.com/user-attachments/assets/6bd303d1-a4e5-4c25-850b-fb357b169e34)
+![image](https://github.com/user-attachments/assets/b0abb742-b239-4f1b-9c9d-be624c06770b)  
+![image](https://github.com/user-attachments/assets/6bfd207f-db57-49b6-80b9-272f005a7b74)
+
+
+
 
 
 
