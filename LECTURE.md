@@ -323,7 +323,15 @@ The L2 norm encourages smaller values for coefficients but does not force them t
 <br>
 <br>  
 
-## Week12 - Vector Calculus, Automatic Differentiation, Deep Learning Architectures, Transfer Learning, Discrete Optimization
+## Week12 - Vector Calculus, Automatic Differentiation, Deep Learning Architectures, Transfer Learning, Discrete Optimization  
+
+![image](https://github.com/user-attachments/assets/7ad295d3-8dad-47b8-8b04-89be133c32a0)  
+![image](https://github.com/user-attachments/assets/43db96fc-d31e-4d25-a5b0-7803ff6adb45)  
+![image](https://github.com/user-attachments/assets/06cf2308-daf5-4860-b92a-f49b7dd42544)  
+![image](https://github.com/user-attachments/assets/10d14849-5f79-47d5-8518-6e1cc55363f3)
+
+
+
 
 
 
