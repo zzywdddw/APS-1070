@@ -328,7 +328,19 @@ The L2 norm encourages smaller values for coefficients but does not force them t
 ![image](https://github.com/user-attachments/assets/7ad295d3-8dad-47b8-8b04-89be133c32a0)  
 ![image](https://github.com/user-attachments/assets/43db96fc-d31e-4d25-a5b0-7803ff6adb45)  
 ![image](https://github.com/user-attachments/assets/06cf2308-daf5-4860-b92a-f49b7dd42544)  
-![image](https://github.com/user-attachments/assets/10d14849-5f79-47d5-8518-6e1cc55363f3)
+![image](https://github.com/user-attachments/assets/10d14849-5f79-47d5-8518-6e1cc55363f3)  
+![image](https://github.com/user-attachments/assets/be1cc004-148c-4659-a034-bd895ec477ae)  
+![image](https://github.com/user-attachments/assets/92019f5d-2f36-497a-b4b2-c2137855edef)  
+![image](https://github.com/user-attachments/assets/6ebc0933-8b0d-4acc-bcd0-f3d342800605)  
+![image](https://github.com/user-attachments/assets/99d4429a-7190-4b90-a582-777a11de6509)  
+![image](https://github.com/user-attachments/assets/c4f2ba60-1639-4ab6-91f2-1b87b751e90e)  
+![image](https://github.com/user-attachments/assets/b8e7fa45-4bde-4356-997b-30d765b9ddaa)
+
+
+
+
+
+
 
 
 
